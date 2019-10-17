@@ -1,0 +1,29 @@
+{
+  "name": "google-book-search",
+  "version": "1.0.0",
+  "description": "React Google Books Search App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doingway2much/Google-Book-Search.git"
+  },
+  "author": "Seth Randell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doingway2much/Google-Book-Search/issues"
+  },
+  "homepage": "https://github.com/doingway2much/Google-Book-Search#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.5",
+    "node": "^12.12.0"
+  }
+}
